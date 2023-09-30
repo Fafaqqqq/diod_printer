@@ -12,6 +12,9 @@
       "options": {
         "cwd": "${workspaceFolder}"
       },
+      "problemMatcher": [
+        "$gcc"
+      ],
       "presentation": {
         "clear": true
       }
@@ -29,6 +32,9 @@
       "options": {
         "cwd": "${workspaceFolder}"
       },
+      "problemMatcher": [
+        "$gcc"
+      ],
       "presentation": {
         "clear": true
       }
@@ -42,6 +48,9 @@
       "options": {
         "cwd": "${workspaceFolder}"
       },
+      "problemMatcher": [
+        "$gcc"
+      ],
       "presentation": {
         "clear": true
       }
@@ -77,6 +86,9 @@
       "options": {
         "cwd": "${workspaceFolder}"
       },
+      "problemMatcher": [
+        "$gcc"
+      ],
       "presentation": {
         "clear": true,
         "focus": true

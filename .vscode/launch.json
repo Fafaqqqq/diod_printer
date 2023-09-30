@@ -5,10 +5,10 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "emulator dbg",
+      "name": "dbg",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/app/bin/main",
+      "program": "${workspaceFolder}/app/bin/diod_printer_test",
       "args": [
         
       ],

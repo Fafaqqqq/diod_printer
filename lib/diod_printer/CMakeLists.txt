@@ -7,17 +7,12 @@ project(${target})
 file(GLOB_RECURSE sources 
     inc/*.h
     src/*.h
-    src/*.cpp
     src/*.c
 )
-
-set(CMAKE_CXX_STANDARD 17)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 add_library(${target} ${sources})
 
 target_include_directories(${target} PUBLIC inc/)
-
-set_target_properties(${target} PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/bin)
-
+target_include_directories(${target} PRIVATE src/)

@@ -70,7 +70,8 @@
     "typeindex": "cpp",
     "valarray": "cpp",
     "variant": "cpp",
-    "*.ipp": "cpp"
+    "*.ipp": "cpp",
+    "stddef.h": "c"
   },
   "C_Cpp.errorSquiggles": "Disabled"
 }
